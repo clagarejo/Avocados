@@ -41,13 +41,13 @@ const Footer = () => (
               <List.Item
                 icon="twitter"
                 style={{ display: 'flex' }}
-                content={<a href="https://twitter.com/_jeancaa">Twitter</a>}
+                content={<a href="https://twitter.com/_jeancaa" target='__blank'>Twitter</a>}
               />
               <List.Item
                 icon="github"
                 style={{ display: 'flex' }}
                 content={
-                  <a href="https://github.com/clagarejo">
+                  <a href="https://github.com/clagarejo" target='__blank'>
                     GitHub
                   </a>
                 }
