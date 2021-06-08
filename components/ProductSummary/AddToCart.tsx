@@ -9,7 +9,7 @@ type AddToCartProps = {
 // Fake a server Response, we don't care on this project
 // about data persistency, but you may add it :)
 const addToCartRequest = () =>
-  new Promise((resolve, reject) => {
+  new Promise((resolve) => {
     window.setTimeout(resolve, 600)
   })
 
